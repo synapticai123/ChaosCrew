@@ -1,0 +1,52 @@
+# Unity generated folders — all rebuildable from Assets/ + ProjectSettings/ + Packages/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Asset meta files for ignored folders
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# IDE / tooling
+.vs/
+.idea/
+.vscode/
+.gradle/
+.consulo/
+ExportedObj/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.booproj
+*.pidb
+*.svd
+*.opendb
+*.VC.db
+
+# Build output / symbols
+*.apk
+*.aab
+*.app
+*.unitypackage
+*.pdb
+*.mdb
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+crashlytics-build.properties
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.slnx

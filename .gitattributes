@@ -1,0 +1,27 @@
+# Normalise line endings; let Git decide what is text.
+* text=auto
+
+*.cs        text diff=csharp
+*.md        text
+*.json      text
+*.txt       text
+*.shader    text
+*.asmdef    text
+
+# Unity YAML assets: keep LF and use Unity's smart merge tool when configured.
+*.unity     text eol=lf merge=unityyamlmerge
+*.prefab    text eol=lf merge=unityyamlmerge
+*.asset     text eol=lf merge=unityyamlmerge
+*.meta      text eol=lf merge=unityyamlmerge
+*.mat       text eol=lf merge=unityyamlmerge
+*.controller text eol=lf merge=unityyamlmerge
+
+# Binary
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.wav       binary
+*.mp3       binary
+*.ttf       binary
+*.fbx       binary
+*.unitypackage binary
